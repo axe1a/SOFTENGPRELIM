@@ -107,16 +107,16 @@ INSERT INTO Supplier (supplier_id, manufacturer, contact_person, phone_number, e
     (10, 'Bonne Bell LLC', 'Gerhardt Berge', '(221) 9446067', 'gberge9@slideshare.net');
 
 INSERT INTO Purchase (purchase_id, drug_id, supplier_id, purchase_date, delivery_date, amount, status) VALUES
-    (1, 19, 9, '2024-08-21', '2024-05-21', 787, 'Pellentesque eget nunc.'),
-    (2, 12, 10, '2024-07-31', '2024-09-05', 938, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae, Duis faucibus accumsan odio.'),
-    (3, 18, 1, '2024-01-06', '2024-01-26', 771, 'In hac habitasse platea dictumst.'),
-    (4, 19, 5, '2023-09-30', '2024-07-14', 775, 'Aenean lectus.'),
-    (5, 24, 3, '2024-08-06', '2024-05-20', 939, 'Aliquam sit amet diam in magna bibendum imperdiet.'),
-    (6, 44, 2, '2024-05-29', '2024-04-10', 858, 'Duis ac nibh.'),
-    (7, 29, 10, '2024-01-10', '2024-05-22', 804, 'In blandit ultrices enim.'),
-    (8, 46, 5, '2023-11-30', '2024-02-01', 932, 'In hac habitasse platea dictumst.'),
-    (9, 32, 1, '2024-06-30', '2023-11-21', 936, 'Vivamus vestibulum sagittis sapien.'),
-    (10, 24, 5, '2024-05-25', '2024-01-08', 949, 'Pellentesque viverra pede ac diam.');
+    (1, 19, 9, '2024-09-21', '2024-09-21', 1089, 'Ongoing'),
+    (2, 12, 10, '2024-07-31', '2024-09-05', 938, 'Completed'),
+    (3, 18, 1, '2024-10-06', '2024-10-26', 771, 'Ongoing'),
+    (4, 19, 5, '2023-09-30', '2023-10-14', 775, 'Completed'),
+    (5, 24, 3, '2024-08-06', '2024-05-20', 939, 'Cancelled'),
+    (6, 44, 2, '2024-05-29', '2024-06-10', 858, 'Cancelled'),
+    (7, 29, 10, '2024-01-10', '2024-01-22', 804, 'Completed'),
+    (8, 46, 5, '2023-11-30', '2024-02-01', 932, 'Cancelled'),
+    (9, 32, 1, '2024-06-30', '2024-07-21', 936, 'Cancelled'),
+    (10, 24, 5, '2024-05-25', '2024-01-08', 949, 'Completed');
 
 INSERT INTO Drug (drug_id, brand, generic_name, dosage_form, quantity_per_unit, expiration_date) VALUES
     (1, 'Clotrimazole', 'Clotrimazole',  'Capsule', 50, '2025-06-17'),
